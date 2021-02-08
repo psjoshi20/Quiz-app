@@ -65,3 +65,4 @@ class QuizBee extends Component {
 } 
 
 ReactDOM.render(<QuizBee />, document.getElementById("root"))
+//  error in the app

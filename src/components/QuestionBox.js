@@ -8,12 +8,11 @@ import React , { useState } from 'react';
                {answer.map((text, index) => (
                  <button 
                  key ={index} 
-                 className="answerBtn">
+                 className="answerBtn"
                  onClick={() => {  
                    setAnswer([text]);
                    selected(text);
-                 }}>
-                 
+                 }}>    
                   {text}
                 </button>
                ))}
